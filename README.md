@@ -6,9 +6,9 @@ A distributed energy management platform designed to monitor, manage, and intera
 
 ## 🚀 Overview
 
-This application enables administrators to manage users and assign smart energy devices to them, while allowing users to monitor the energy consumption of their assigned devices in real time. The system is organized as a set of loosely coupled microservices, each responsible for a specific domain: user authentication, device management, data monitoring, communication, and simulation. Smart meters simulate real-world energy usage and send data periodically to the backend. Users can view their usage trends, receive alerts for excessive consumption, and engage in real-time chat with administrators for support.
+This application enables administrators to manage users and assign smart energy devices to them, while allowing users to monitor the energy consumption of those devices in real time. Smart meters simulate real-world energy usage and send data periodically to the backend. Users can view their usage trends, receive alerts for excessive consumption, and engage in real-time chat with administrators for support.
 
-The system is composed of multiple independent microservices that work together to support key operations for an energy management application. Each service is deployed in a containerized environment to ensure scalability, maintainability, and security.
+The system is built using a microservices architecture, where each independent service is responsible for a specific domain such as authentication, device management, data monitoring, communication, or simulation. All services are deployed in a containerized environment to ensure scalability, maintainability, and security.
 
 ---
 
