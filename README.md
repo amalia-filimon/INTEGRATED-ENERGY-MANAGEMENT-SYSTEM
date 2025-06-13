@@ -6,6 +6,8 @@ A distributed energy management platform designed to monitor, manage, and intera
 
 ## 🚀 Overview
 
+This application enables administrators to manage users and assign smart energy devices to them, while allowing users to monitor the energy consumption of their assigned devices in real time. The system is organized as a set of loosely coupled microservices, each responsible for a specific domain: user authentication, device management, data monitoring, communication, and simulation. Smart meters simulate real-world energy usage and send data periodically to the backend. Users can view their usage trends, receive alerts for excessive consumption, and engage in real-time chat with administrators for support.
+
 The system is composed of multiple independent microservices that work together to support key operations for an energy management application. Each service is deployed in a containerized environment to ensure scalability, maintainability, and security.
 
 ---
@@ -34,6 +36,15 @@ integrated-energy-management-system/
 ```
 
 ---
+
+## 🧩 Conceptual Architecture
+
+The diagram below illustrates the high-level architecture of the system, including all major components and their communication patterns:
+
+<img src="https://github.com/user-attachments/assets/ce9829bf-91b5-4b48-8b2f-b9f5039a4276" width="600"/>
+
+---
+
 
 ## 🔧 Features
 
@@ -64,4 +75,3 @@ docker-compose up --build
 * WebSocket secured via token handshake
 
 ---
-
