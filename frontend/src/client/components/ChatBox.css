@@ -1,0 +1,71 @@
+.messages {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #649AF5;
+}
+
+
+.input-chatbox{
+    margin-right: 5px;
+    width: 697px;
+
+}
+
+.button-chatbox{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Lucida Calligraphy", serif;
+    transition: background-color 0.3s ease;
+}
+
+.button-chatbox:hover {
+    background-color: red;
+}
+
+.message {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    max-width: 50%;
+}
+
+.sent {
+    background-color: #e0f2f1; /* o culoare pentru mesajele trimise */
+    margin-left: auto; /* aliniază la dreapta */
+}
+
+.received {
+    background-color: #bbdefb; /* o altă culoare pentru mesajele primite */
+    margin-right: auto; /* aliniază la stânga */
+}
+
+.admin-typing-indicator {
+    font-style: italic;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    font-size: 0.9em;
+}
+
+/*.seen-indicator {*/
+/*    font-size: 0.8em;*/
+/*    color: gray;*/
+/*    margin-left: 5px;*/
+/*}*/
+
+.seen {
+    font-size: 0.8em;
+    color: gray;
+    text-align: right;
+}
+
+
+

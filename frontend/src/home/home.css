@@ -1,0 +1,26 @@
+.t1{
+    padding-top: 100px;
+    text-align: center;
+    font-family: "Lucida Calligraphy", cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.to-login-button{
+    position: fixed;
+    right: 210px;
+    top: 35%; /* Centrare pe verticala */
+    display: flex;
+    border: 5px solid #E8B300;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    color: #E8B300;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: "Lucida Calligraphy", cursive;
+    font-weight: 800;
+    cursor: pointer;
+    background-color: #000000;
+}

@@ -1,0 +1,70 @@
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.6); /*Fundal semi-transparent pentru formul de logare*/
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px; /* Dimensiunile formului */
+    height: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Umbra pe margini */
+}
+
+.custom-title{
+    color: #E86950;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Britannic Bold", serif;
+    text-align: center;
+}
+
+.input-container{
+    margin-top: 30px;
+
+}
+
+.fail{
+    margin: 0px 40px;
+}
+
+
+.custom-img{
+    margin: 0 30px;
+    vertical-align: middle;
+    height: 35px;
+}
+
+.custom-input{
+    height: 25px;
+    width: 250px;
+    background: transparent;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.button-container{
+    display: flex;
+    gap: 10px;
+    margin: 40px 140px;
+}
+
+.custom-button{
+    display: flex;
+    border: 2px solid #E86950;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 59px;
+    color: #E86950;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: "Britannic Bold", serif;
+    font-weight: 800;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.custom-button:hover{
+    background-color: #000000; /* Stil pentru hover */
+}

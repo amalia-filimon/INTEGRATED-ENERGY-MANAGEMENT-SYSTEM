@@ -1,0 +1,37 @@
+/* usersTable.css */
+.client-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0px 70px;
+    font-size: 18px;
+}
+
+.client-table th,
+.client-table td {
+    text-align: center;
+    vertical-align: middle;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 8px 12px;
+}
+
+.client-table-header {
+    background-color: #649AF5;
+    color: white;
+}
+
+.start-device-button {
+    padding: 5px 10px;
+    background-color: #FF0000;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.start-device-button:hover {
+    background-color: #7E0000;
+}

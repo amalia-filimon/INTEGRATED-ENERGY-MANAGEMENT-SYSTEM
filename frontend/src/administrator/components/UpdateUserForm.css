@@ -1,0 +1,60 @@
+.custom-update-form {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FF3636;
+    padding: 15px;
+    border-radius: 50px;
+    width: 400px; /* Dimensiunile formului */
+    height: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); /* Umbra pe margini */
+}
+
+
+.custom-button-updateform {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Lucida Calligraphy", serif;
+    transition: background-color 0.3s ease;
+}
+
+.input-container-updateform label {
+    font-family: "Lucida Calligraphy", serif;
+    align-items: center;
+    display: block;
+    margin-bottom: 10px; /* adăugarea spațiului între label și input */
+    color: black;
+    font-weight: bold;
+}
+
+.button-container-updateform {
+    display: flex;
+    justify-content: center; /* centrarea pe orizontală */
+    margin-top: 30px; /* spațiu adițional deasupra butonului */
+}
+
+.custom-input-updateform{
+
+    height: 25px;
+    width: 300px;
+    background: white;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.input-container-updateform{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+
+.custom-button-updateform:hover {
+    background-color: red;
+}

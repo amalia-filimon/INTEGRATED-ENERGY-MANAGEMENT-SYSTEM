@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  frontend:
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    container_name: frontend-react
+    networks:
+      network_project:
+
+networks:
+  network_project:

@@ -1,0 +1,90 @@
+.backgroundstyle {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    width: 1300px;
+}
+
+.titlu-admin-page{
+    padding-top: 50px;
+    text-align: center;
+    font-family: "Lucida Calligraphy", cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 0 #000000, -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000;
+}
+
+.titlu-form1{
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Lucida Calligraphy", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: #BD0755;
+}
+
+.titlu-form2{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-family: "Lucida Calligraphy", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: #BD0755;
+}
+
+
+.insert-button{
+    display: flex;
+    gap: 30px;
+    margin: 50px 10px;
+}
+
+.custom-insert-button{
+    display: flex;
+    border: 2px solid #3372DC;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    color: #3372DC;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: "Lucida Calligraphy", serif;
+    font-weight: 800;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.custom-insert-button:hover{
+    background-color: #000000; /* Stil pentru hover */
+}
+
+.titlu-chatbox-administrator{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-family: "Lucida Calligraphy", cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: #BD0755;
+}
+
+.notification-box-administrator{
+    margin-right: 5px;
+    margin-top: 180px;
+    margin-left: 430px;
+    width: 700px;
+}
+
+.notification-box-administrator-container{
+    position: absolute;
+    top: 130%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    width: 1300px;
+}

@@ -1,0 +1,65 @@
+/* usersTable.css */
+.users-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0px 70px;
+    font-size: 18px;
+}
+
+.users-table th,
+.users-table td {
+    text-align: center;
+    vertical-align: middle;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 8px 12px;
+}
+
+.users-table-header {
+    background-color: #649AF5;
+    color: white;
+}
+
+.delete-button {
+    padding: 5px 10px;
+    background-color: #FF0000;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #7E0000;
+}
+
+.update-button {
+    padding: 5px 10px;
+    background-color: #FF0000;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update-button:hover {
+    background-color: #7E0000;
+}
+
+.chat-button-user-table{
+    padding: 5px 10px;
+    background-color: #FF0000;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.chat-button-user-table:hover {
+    background-color: #7E0000;
+}
