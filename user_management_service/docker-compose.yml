@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+  db_user:
+    container_name: mysql-users
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'user_management_db'
+      MYSQL_ROOT_PASSWORD: 'tehniciP11@'
+    ports:
+      - "3307:3306"
+    volumes:
+      - my-db_user:/var/lib/mysql
+    networks:
+      network_project:
+
+  backend_user:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    container_name: backend_user
+    image: backend_user_image
+    ports:
+      - "8080:8080"
+    environment:
+      - DB_IP=db_user
+      - DB_PORT=3306
+      - DB_DBNAME=user_management_db
+      - DB_USER=root
+      - DB_PASSWORD=tehniciP11@
+    networks:
+      network_project:
+
+volumes:
+  my-db_user:
+
+networks:
+  network_project:
+    external: true

@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  backend_chat:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    container_name: backend_chat
+    image: backend_chat_image
+    ports:
+      - "8083:8083"
+    networks:
+      network_project:
+
+networks:
+  network_project:
+    external: true

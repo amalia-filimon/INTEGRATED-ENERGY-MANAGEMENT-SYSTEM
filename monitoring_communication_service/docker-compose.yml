@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+  db_measure:
+    container_name: mysql-measure
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'monitoring_communication_db'
+      MYSQL_ROOT_PASSWORD: 'tehniciP11@'
+    ports:
+      - "3309:3306"
+    volumes:
+      - my-db_measure:/var/lib/mysql
+    networks:
+      network_project:
+
+  backend_measure:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    container_name: backend_measure
+    image: backend_measure_image
+    ports:
+      - "8082:8082"
+    environment:
+      - DB_IP=db_measure
+      - DB_PORT=3306
+      - DB_DBNAME=monitoring_communication_db
+      - DB_USER=root
+      - DB_PASSWORD=tehniciP11@
+    networks:
+      network_project:
+
+volumes:
+  my-db_measure:
+
+networks:
+  network_project:
+    external: true
